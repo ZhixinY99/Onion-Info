@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(243, 223, 131);
+    background-size: cover;
+}
+
+.container {
+    width: 75vw;
+    height: 65vh;
+    margin-left: 20vh;
+    margin-top: 20vh;
+    background-color: rgb(157, 209, 241);
+    border-radius: 12px;
+}
+
+.keys img {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 620px;
+    bottom: 85px;
+}
+
+
+h1 {
+    margin-left: 0 auto;
+    margin-top: 25px;
+    padding-top: 40px;
+    
+    text-align: center;
+    color: rgb(255, 166, 1);
+    font-size: 34px;
+    font-family: 'Krona One', sans-serif;
+    text-decoration: rgb(223, 91, 91);
+    -webkit-text-stroke: 0.1px rgb(175, 167, 167);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f5ec9c, 0 0 30px  #f5ec9c, 0 0 40px #f5ec9c, 0 0 50px  #f5ec9c, 0 0 60px  #f5ec9c;
+    }
+    
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 20px #ffe655, 0 0 30px #ffe655, 0 0 40px #ffe655, 0 0 50px #ffe655, 0 0 60px #ffe655, 0 0 70px #ffe655;
+    }
+  }
+
+
+.how p {
+    padding: 5px 150px;
+    font-family: 'Syne Mono', monospace;
+    color: rgb(224, 126, 35);
+    font-size: 25px;
+}
+
+.how {
+    position: relative;
+    top: 20px;
+}
+
+.info p {
+    padding: 0px 130px;
+    font-family: 'Syne Mono', monospace;
+    color: rgb(216, 81, 81);
+    font-size: 20px;
+}
+
+.info {
+    position: relative;
+    bottom: 95px;
+}
+
+
+
+.gtg {
+    
+        background-color: rgb(250, 219, 219); 
+        border: 2px solid darkgrey;
+        border-radius: 12px; 
+        margin: 0 auto;
+        margin-left: 38%;
+        cursor: pointer; 
+        width: 15%; 
+
+        color: rgb(223, 91, 91); 
+        font-family: 'Pacifico', cursive;
+        letter-spacing: 4px;
+        padding: 30px 30px; 
+        text-align: center; 
+        display: inline-block; 
+        font-size: 27px; 
+        text-decoration:none;
+        
+        position: relative;
+        bottom: 85px;
+
+    
+}
+
+.gtg:hover {
+    background-color: rgb(248, 242, 221);
+}
